@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio
+
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Space+Grotesk&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/20088fbc0e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                 <img src="images/logo.png" class="logo"> 
+                
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Interests</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>
+                    Computer Engineering Student
+                </p>
+                <h1><span>Shreyas Jadhav</span><br> AI and ML Enthusiast</h1>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="images/Shreyas.jpeg"></div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p style="  line-height: 130%;">
+                         I am a Computer Engineering student, an AI / Ml enthusiast exploring various technologies and also trying to implement them to solve real life problems.Besides that, I have also involved in various extra curricular activities since my school days, I have participated in various debate and music competitions. I have anchored and volunteered in my college events too.  
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Research')">Research</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education </p>
+                        <p class="tab-links" onclick="opentab('Achievements')">Achievements</p>
+                        <p class="tab-links" onclick="opentab('Volunteering')">Volunteering</p>
+                    </div>
+
+
+                    <div class="tab-contents active-tab" id="Experience">
+                        <ul>
+                            <li><span>Web Development Intern </span><br>Web Development Internship in Sync Interns</li>
+                            <li><span>Ambassador </span><br>Ambassador in Young Guns Program at Royal Enfield </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Research">
+                        <ul>
+                            <li><span>Swarm Intelligence based Fire Fighting Robot</span><br>International Journal of Advanced Engineering Research and Science <a href="http://journal-repository.com/index.php/ijaers/article/view/3964"><i class="fa-solid fa-up-right-from-square"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020-2024 </span><br>B.E. in Computer Engineering At Dr. D.Y.Patil Institute of
+                                Technology, Pimpri, Pune, India</li>
+                            <li><span>2020 </span><br> 12th Grade | CBSE Board | GG International School, Pimpri</li>
+                            <li><span>2018 </span><br> 10th Grade | CBSE Board | City International School, Pimpri</li>
+                            
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Achievements">
+                        <ul>
+                            <li><span>Quiz Winner </span><br>Google Devfest 2021</li>
+                            <li><span>HackerRank</span><br>5 Star- JAVA</li>
+                            <li><span>HackerRank</span><br>5 Star- Python</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Volunteering">
+                        <ul>
+                            <li><span>Joint Secretary </span><br>Association of Computer Engineering Students in 2022</li>
+                            <li><span>Volunteer</span><br>Volunteer in TEDX Dypit 2022 </li>
+                            <li><span>Jr. External Affairs Officer </span><br>Association of Computer Engineering Students in 2021</li>
+                            <li><span>Marketing head and Sales Event </span><br>E-BAJA SAE India in 2021 | AIR 14 (Virtual Round) | AIR 28 (Sales Event) </li>
+                            <li><span>Campus Ambassador </span><br>Internshala </li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Interests</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>
+                        Web Development
+                    </h2>
+                    <p>
+                        I have developed my School's event website in my 11th Grade. 
+
+                    </p>
+                    <!-- <a href="#">X</a>-->
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>
+                        BackEnd Services
+                    </h2>
+                    <p>
+                        I specialize in developing Backend APIs, Authentication & Authoriztion etc.
+
+                    </p>
+                     <!-- <a href="#">X</a>-->
+                </div>
+                <div>
+                    <i class="fa-solid fa-brain"></i>
+                    <h2>
+                        AI/ML Projects
+                    </h2>
+                    <p>
+                        Currently learning Artificial Intelligence & Machine learning.
+                    </p>
+                     <!-- <a href="#">X</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/blog.jpg">
+                    <div class="layer">
+                        <h3>
+                            BlogSpot
+                        </h3>
+                        <p>I have created my own blogging page where I can Upload all my blogs</p>
+                        <a href="https://shreyas-jdv.github.io/Blogspot/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/cam.jpg">
+                    <div class="layer">
+                        <h3>
+                            Burgular Security Alarm
+                        </h3>
+                        <p>This camera captures the movements of objects and protect it from theft.
+                        </p>
+                        <a href="https://github.com/Shreyas-jdv/Security-Camera"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/machine.jpg">
+                    <div class="layer">
+                        <h3>
+                            Rainfall prediction in Australia Model
+                        </h3>
+                        <p>A dataset containing daily weather observations from numerous Australian weather stations.</p>
+                        <a href="https://github.com/Shreyas-jdv/Rainfall-prediction-in-Australia-Model/blob/main/Rainfall_analysis.ipynb"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>shreyasj.jadhav@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 7058051217</p>
+                    <div class="social-icons">
+                        <a href="https://twitter.com/Shreyas_jz"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/shreyas.jz"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shreyas-jadhav-641bb7218/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2 ">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p> Copyright &#9400; Shreyas Jadhav.</p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName('tab-contents');
+        function opentab(tab_name) {
+
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tab_name).classList.add("active-tab")
+
+
+        }
+
+
+        var sidemenu = document.getElementById("side-menu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyKxvnDivE7pfsGLz_LUwW4utQTEPXxCIsW0LObvydc2aZNHIR2DTLHf-vd44EMHR-a/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent Successfully!!!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
